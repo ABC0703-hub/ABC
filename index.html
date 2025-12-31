@@ -4,24 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>免费教育平台</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f5f7fa;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        ul {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+        a:hover {
+            background-color: #e3f2fd;
+            text-decoration: underline;
+        }
+        .info-box {
+            background: #e8f4fc;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>免费教育平台</h1>
-    <h2>基于 GitHub Pages + 钉钉云盘 + 知乎的综合平台</h2>
+    <h1>🎓 免费教育平台</h1>
     
-    <p><strong>幼儿中文拼音学习区：</strong></p >
+    <div class="info-box">
+        <p><strong>学号姓名：</strong> [请填写您的学号和姓名]</p >
+        <p><strong>课程：</strong> 教育技术新生</p >
+    </div>
+    
+    <h2>📚 幼儿中文拼音学习区</h2>
     <ul>
-        <li><a href=" ">进入：幼儿中文拼音作业测验</a ></li>
-        <li><a href="#">拼音基础教学（建设中）</a ></li>
-        <li><a href="#">互动练习（建设中）</a ></li>
+        <li>➡️ <a href=" ">进入：幼儿中文拼音作业测验</a ></li>
+        <li>📖 <a href="#pinyin-basic" onclick="alert('功能建设中，请先使用作业测验')">拼音基础教学</a > <small style="color:#e74c3c;">(建设中)</small></li>
+        <li>🎮 <a href="#interactive" onclick="alert('功能建设中，请先使用作业测验')">互动练习</a > <small style="color:#e74c3c;">(建设中)</small></li>
     </ul>
     
-    <p><strong>资源链接：</strong></p >
+    <h2>🔗 资源链接</h2>
     <ul>
-        <li>大文件资源存储在<a href="#">钉钉云盘</a ></li>
-        <li>平台介绍文章在<a href="#">知乎专栏</a ></li>
+        <li>📁 <strong>钉钉云盘：</strong> <a href="https://www.dingtalk.com" target="_blank">点击访问钉钉云盘</a >（需先登录）</li>
+        <li>📝 <strong>知乎文章：</strong> <a href="https://zhuanlan.zhihu.com" target="_blank">点击查看平台介绍文章</a ></li>
+        <li>💾 <strong>GitHub仓库：</strong> <a href="https://github.com/ABC0703-hub/ABC" target="_blank">查看项目源码</a ></li>
     </ul>
     
-    <p>学号姓名：[填写您的信息]</p >
+    <h2>📋 作业要求完成状态</h2>
+    <table style="width:100%; border-collapse: collapse; background:white; border-radius:8px; overflow:hidden; box-shadow:0 2px 5px rgba(0,0,0,0.1);">
+        <tr style="background:#3498db; color:white;">
+            <th style="padding:12px; text-align:left;">任务</th>
+            <th style="padding:12px; text-align:left;">状态</th>
+        </tr>
+        <tr style="border-bottom:1px solid #eee;">
+            <td style="padding:12px;">GitHub Pages 网站搭建</td>
+            <td style="padding:12px;"><span style="color:#27ae60;">✅ 已完成</span></td>
+        </tr>
+        <tr style="border-bottom:1px solid #eee;">
+            <td style="padding:12px;">网页基本结构创建</td>
+            <td style="padding:12px;"><span style="color:#27ae60;">✅ 已完成</span></td>
+        </tr>
+        <tr style="border-bottom:1px solid #eee;">
+            <td style="padding:12px;">钉钉云盘资源上传</td>
+            <td style="padding:12px;"><span style="color:#f39c12;">⏳ 待完成</span></td>
+        </tr>
+        <tr style="border-bottom:1px solid #eee;">
+            <td style="padding:12px;">知乎文章发布</td>
+            <td style="padding:12px;"><span style="color:#f39c12;">⏳ 待完成</span></td>
+        </tr>
+        <tr>
+            <td style="padding:12px;">幼儿拼音内容制作</td>
+            <td style="padding:12px;"><span style="color:#f39c12;">⏳ 待完成</span></td>
+        </tr>
+    </table>
+    
+    <div style="margin-top:30px; padding:15px; background:#f8f9fa; border-radius:8px; text-align:center;">
+        <p><strong>下一步：</strong>请点击上方"幼儿中文拼音作业测验"链接进入内容页面</p >
+        <p style="color:#7f8c8d; font-size:0.9em;">如果链接无法点击，请直接访问：<br>
+        <a href="https://abc0703-hub.github.io/ABC/htmlpage.html">https://abc0703-hub.github.io/ABC/htmlpage.html</a ></p >
+    </div>
+    
+    <script>
+        // 添加最后更新时间
+        const dateElement = document.createElement('p');
+        dateElement.innerHTML = `<small>最后更新时间：${new Date().toLocaleString('zh-CN')}</small>`;
+        dateElement.style.textAlign = 'center';
+        dateElement.style.color = '#95a5a6';
+        dateElement.style.marginTop = '30px';
+        document.body.appendChild(dateElement);
+    </script>
 </body>
 </html>
